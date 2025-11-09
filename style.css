@@ -337,3 +337,27 @@ footer img {
     font-size: 0.9rem;
   }
 }
+
+.sec2 {
+  background-image: url('https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 100px auto 60px;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+
+.sec2 h1 {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-family: 'Rift', sans-serif;
+  margin-bottom: 1rem;
+}
